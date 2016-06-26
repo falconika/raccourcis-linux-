@@ -1,0 +1,36 @@
+body
+{
+  width: auto;
+  height: auto;
+  max-width: 900px;
+  background-color: green;
+  }
+.image
+{
+}
+table
+{
+  height: auto;
+  width: auto;
+  background-color: black;
+  color: green;
+  border: 1px solid black;
+  }
+
+.tableau
+{
+margin: auto;
+}
+td
+{
+  display: flex;
+}
+table tr:nth-child(2n+1)
+{
+background-color: green;
+}
+
+table tr:nth-child(2n)
+{
+background-color: black;
+}
